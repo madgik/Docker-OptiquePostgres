@@ -75,7 +75,7 @@ RUN mkdir /docker-entrypoint-initdb.d
 ```
 you must add your script file to the container 
 ```
-ADD <you-script-file  /docker-entrypoint-initdb.d/
+ADD <name-of-your-script-file>  /docker-entrypoint-initdb.d/
 ```
 
 
