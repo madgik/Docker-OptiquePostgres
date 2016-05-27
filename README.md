@@ -57,7 +57,7 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
 ## Test the Optique Postgres
 Test the Optique Postgres using [psql](https://www.postgresql.org/docs/9.2/static/app-psql.html) 
 ```bash
-$ psql -p 5432 -U postres -h <dockerip>
+$ psql -p 5432 -U postgres -h <dockerip>
 ```
 ## Exit Optique Postgres container
 To gracefully stop your docker container:
