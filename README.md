@@ -50,7 +50,7 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
   It will return your docker-machine ip **(from now on use this instead of localhost if you are on Windows or Mac)**.
 
 ## Functionality and Settings
-- The postgres server inside the container has two databases (named "nw", "optiquef2015")
+- The postgres server inside the container has one database named "nw"
 - The default user will be "postgres" and a password can be set but it is optional
 
 
