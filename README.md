@@ -35,9 +35,9 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
 
 ## Run Optique Postgres container
 1. Execute:
-  ```bash
-  $ docker run -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -i -t --rm  --name postgresserver postgresserver
-  ```
+```bash
+$ docker run -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -i -t --rm  --name postgresserver postgresserver
+```
 2. The "-e POSTGRES_PASSWORD=mysecretpassword" argument is optional.
 3. To change the port the container listens to you need to change the first part of the "-p <chage-this>:5432" argument.
 3. Leave this console open while you are working and then [stop the container](#exit-container).
