@@ -19,7 +19,7 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
   ```
 3. Linux only:
 
-  ```bash
+  ```
   $ sudo service docker start
   ```
 4. Navigate to the Stream Server Directory:
