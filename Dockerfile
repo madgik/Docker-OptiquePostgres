@@ -25,7 +25,7 @@ ENV LANG en_US.utf8
 
 RUN mkdir /docker-entrypoint-initdb.d
 ADD postNWcreate.sql  /docker-entrypoint-initdb.d/
-
+ADD postNScreate.sql  /docker-entrypoint-initdb.d/
 
 
 RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8
