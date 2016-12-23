@@ -54,7 +54,7 @@ $ docker run -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -i -t --rm  --na
   It will return your docker-machine ip **(from now on use this instead of localhost if you are on Windows or Mac)**.
 
 ## Functionality and Settings
-- The postgres server inside the container has one database named "nw"
+- The postgres server inside the container has one database named "ns"
 - The default user will be "postgres" and a password can be set but it is optional
 
 

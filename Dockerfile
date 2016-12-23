@@ -24,7 +24,6 @@ RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* 
 ENV LANG en_US.utf8
 
 RUN mkdir /docker-entrypoint-initdb.d
-ADD postNWcreate.sql  /docker-entrypoint-initdb.d/
 ADD postNScreate.sql  /docker-entrypoint-initdb.d/
 ADD siemens.sql /docker-entrypoint-initdb.d/
 
